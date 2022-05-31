@@ -1,0 +1,27 @@
+.nav-bg {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 5;
+  position: relative;
+  height: 55px;
+}
+
+.nav-container {
+  height: 55px;
+  width: 100%;
+  padding: 0.3rem 0rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 10 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-link {
+  font-family: monospace;
+  font-size: xx-large;
+  margin: 15px;
+  position: relative;
+  top: 10px;
+}

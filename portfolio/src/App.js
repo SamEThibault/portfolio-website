@@ -1,16 +1,39 @@
-import './App.css';
+import React from "react";
+import "./styles/App.css";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Home from "./views/Home";
+import Projects from "./views/Projects";
+import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="App">
-
-      <p className="Title">Samuel Emard-Thibault</p>
-
-      <div className="Video">
-        <iframe width="900" height="195" src="https://www.youtube.com/embed/r6shGPorn1M?controls=0&playlist=r6shGPorn1M&autoplay=1&loop=1&showinfo=0&rel=0&modestbranding=1"
-          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+<div className="App">
+      <Router>
+          <Routes>
+            <Route
+              exact
+              path="/"
+              element={<Home />}
+            />
+            <Route
+              exact
+              path="*"
+              element={<Home />}
+            />
+            <Route exact path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route
+              path="/detection"
+              element={
+                <>
+                  <div className="app-nav">
+                    <Nav />
+                  </div>
+                </>
+              }
+            />
+          </Routes>
+      </Router>
     </div>
   );
 }
