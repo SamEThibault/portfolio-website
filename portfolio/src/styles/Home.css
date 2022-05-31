@@ -19,3 +19,30 @@
     color: white;
     text-align: center;
   }
+
+  .hand-gif {
+    position: relative;
+    left: 1300px;
+    top: -330px;
+  }
+
+  .intro-container {
+    
+    position: fixed;
+    font-family: monospace;
+    font-size: x-large;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  .intro-text {
+    color:white;
+  }
+
+  .link {
+    color:aqua;
+  }

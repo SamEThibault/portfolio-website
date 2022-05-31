@@ -1,5 +1,4 @@
 .nav-bg {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   z-index: 5;
   position: relative;
   height: 55px;
@@ -10,7 +9,6 @@
   width: 100%;
   padding: 0.3rem 0rem;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   z-index: 10 !important;
   position: fixed;
   top: 0;
@@ -24,4 +22,5 @@
   margin: 15px;
   position: relative;
   top: 10px;
+  color: #272C2F;
 }
