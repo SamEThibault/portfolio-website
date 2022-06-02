@@ -1,0 +1,40 @@
+.icons {
+    margin: 10px;
+}
+
+.intro-text {
+    color: white;
+    font-family: monospace;
+    font-size: 400%;
+    text-align: center;
+    position: relative;
+    top:30px;
+}
+
+.icons-container-languages {
+    position: relative;
+    left: 30%;
+}
+
+.languages {
+    font-family: monospace;
+    color: white;
+    position: relative;
+    font-size: xx-large;
+    left: 400px;
+    top: 70px;
+}
+
+.web {
+    font-family: monospace;
+    color: white;
+    position: relative;
+    font-size: xx-large;
+    left: 485px;
+    top: 70px;
+}
+
+.icons-container-web {
+    position: relative;
+    left: 30%;
+}

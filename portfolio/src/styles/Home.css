@@ -32,8 +32,8 @@
   font-family: monospace;
   font-size: x-large;
   text-align: center;
-  width: 50%;
-  height: 50%;
+  width: 53%;
+  height: 30%;
   left: 25%;
   bottom: 0;
   z-index: 10;
@@ -47,19 +47,10 @@
   color: aqua;
 }
 
-.icons {
-  margin: 10px;
-}
-
-.icons-container-languages {
-  position: relative;
-  top: -70px;
-}
-
-.languages {
-  font-family: monospace;
-  color: white;
-  position: relative;
-  left: -500px;
-  top: 10px;
+.selfie{
+  border-radius: 50%;
+  width: 200px;
+  position: absolute;
+  left: 850px;
+  top: 450px;
 }

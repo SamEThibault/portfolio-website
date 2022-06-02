@@ -16,6 +16,9 @@ function Nav() {
             <NavLink className="nav-link" to="/projects">
               Projects
             </NavLink>
+            <NavLink className="nav-link" to="/stack">
+              Tech Stack
+            </NavLink>
           </div>
         </div>
       </div>

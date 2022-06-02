@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./views/Home";
 import Projects from "./views/Projects";
 import Nav from "./components/Nav";
+import Stack from "./views/Stack";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             />
             <Route exact path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/stack" element={<Stack />} />
             <Route
               path="/detection"
               element={
